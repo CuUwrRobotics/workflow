@@ -10,6 +10,15 @@ That said, code should also be reasonably legible; if the function which runs yo
 
 Just remember that others will likely need to go through your work one day (or you may need to one day!), so it's best to keep it understandable.
 
+## File Headers
+
+Please use a file header like this one in a comment at the top of your files. If you significantly contribute to a file, note yourself as an author! The important thing is the purpose and author.
+
+```
+File Purpose:
+Authors: [GitHub handle, ex. @nichlock]
+```
+
 # NAMING
 
 Please check with a reviewer beore deciding on new repository names!
@@ -58,6 +67,8 @@ See the example project in this repository.
 We'll be developing with branches. Specifically, when developing any new features or making an changes, create a branch for it named `dev-[short-description]`. If you're doing a bugfix from `master` or `stable` branches, call them `hotfix-[desc]`. 
 
 **Please do not commit directly to the `master` branch!** When making a single-file commit online through GitHub, you can just choose the "Create a new branch for this commit and start a pull request." radio button before commiting. Otherwise, just create a new branch and create a pull request when done working on it.
+
+Once you are done working on a the branch, you can create a Pull Request on GitHub. Request Review by the person who is listed in the [file header](#File-Headers). If you can't find an author, request the repository owner or the head of the team.
 
 When naming branches and any files, use lowercase letters and dashes (Ex. this-is-a-branch).
 
