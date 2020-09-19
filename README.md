@@ -48,7 +48,7 @@ See the example project in this repository.
 
 We'll be developing with branches. Specifically, when developing any new features or making an changes, create a branch for it named `dev-[short-description]`. If you're doing a bugfix from `master` or `stable` branches, call them `hotfix-[desc]`. 
 
-**Please do not commit directly to the `master` branch!**
+**Please do not commit directly to the `master` branch!** When making a single-file commit online through GitHub, you can just choose the "Create a new branch for this commit and start a pull request." radio button before commiting. Otherwise, just create a new branch and create a pull request when done working on it.
 
 When naming branches and any files, use lowercase letters and dashes (Ex. this-is-a-branch).
 
