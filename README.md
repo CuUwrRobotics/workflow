@@ -12,11 +12,16 @@ Just remember that others will likely need to go through your work one day (or y
 
 ## File Headers
 
-Please use a file header like this one in a comment at the top of your files. If you significantly contribute to a file, note yourself as an author! The important thing is the purpose and author.
+Please use a file header in a comment at the top of your files. If you significantly contribute to a file, note yourself as an author! You can automate file headers in Atom editor using the file-header package. This will also automatically add you as an editor! I use the following configuration for that package:
 
-```
-File Purpose:
-Authors: [GitHub handle, ex. @nichlock]
+```cson
+  "file-header":
+    autoAddingHeaderOnNewFile: false
+    autoAddingHeaderOnSaving: false
+    dateTimeFormat: "k:mm MMM DD YYYY"
+    numOfEmptyLinesAfterNewHeader: 1
+    realname: "Nick Steele"
+    username: "nichlock"
 ```
 
 # NAMING
