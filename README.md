@@ -36,6 +36,15 @@ Not only that, but if you make a commit that solves an issue, typing `closes #1`
 
 Using `close` and issue numbers will also help with the "DRY" principle!
 
+### Issue Labels
+
+Issues color-coded tags, where certain colors for tags denote what the tag is for. This is the color code for common tags:
+- ![#7fe3e1](https://via.placeholder.com/15/7fe3e1/000000?text=+) `Level`: How advanced the programming work is.
+- ![#1d76db](https://via.placeholder.com/15/1d76db/000000?text=+) `Kind`: The type of issue.
+- ![#eeeeee](https://via.placeholder.com/15/eeeeee/000000?text=+) `Area`: What topic the issue mainly covers.
+
+**See our [template-package](https://github.com/CuUwrRobotics/template-package) repo to see how to automatically add all our standard issues to your repository!**
+
 ## Projects
 
 We don't use Trello much for project tracking, like the other teams. Our project tracking happens on a more granular level. In you repository, create a Project (GitHub `Projects` tab) using the "Automated kanban with reviews" template. Try to keep this updated, since it will help us track what's going on i the repository.
